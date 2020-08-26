@@ -105,7 +105,7 @@ export default {
   },
   computed: {
     baseURL() {
-      return "http://dist-sys-gestiones.herokuapp.com/api/";
+      return "https://dist-sys-gestiones.herokuapp.com/api/";
     },
     db() {
       return this.baseURL + "gestion";
