@@ -81,7 +81,7 @@
         </div>
         <div class="col-12">
           <p class="lead" v-if="db_times.length > 0 && cache_times.length > 0">
-            Las solicitudes directo a la base de datos toman {{compare_db_cache * 100}} más tiempo que las solicitudes con cache.  
+            Las solicitudes directo a la base de datos toman {{(compare_db_cache * 100).toFixed(2)}}% más tiempo que las solicitudes con cache.  
           </p>
         </div>
       </div>
